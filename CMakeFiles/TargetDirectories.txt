@@ -1,0 +1,3 @@
+/home/anuradha/CLionProjects/A/CMakeFiles/rebuild_cache.dir
+/home/anuradha/CLionProjects/A/CMakeFiles/Demo.dir
+/home/anuradha/CLionProjects/A/CMakeFiles/edit_cache.dir

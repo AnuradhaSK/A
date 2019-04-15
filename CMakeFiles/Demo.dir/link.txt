@@ -1,0 +1,1 @@
+/usr/bin/c++    -I/usr/include/python3.5 -g   CMakeFiles/Demo.dir/main.cpp.o  -o Demo /usr/lib/x86_64-linux-gnu/libpython3.5m.so 

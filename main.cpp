@@ -18,8 +18,12 @@ int main(int argc, char *argv[])
 //    Py_SetProgramName(program);
 
     PySys_SetArgv(argc, _argv);
+    PyObject *sys = PyImport_ImportModule("sys");
+    PyObject *path = PyObject_GetAttrString(sys, "path");
+    PyList_Append(path, PyUnicode_FromString("./test.py"));
+
     file = fopen("test.py","r");
-    PyRun_SimpleFile(file, "test.py");
+    PyRun_SimpleFile(file, "test");
     Py_Finalize();
     return 0;
 }
