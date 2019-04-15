@@ -10,8 +10,6 @@
 
 4.Build 
 	
-	cmake clean
-	
 	cmake --build . --target Demo -- -j 2
 	
 5.Run 
