@@ -16,11 +16,15 @@
 	
 5.Run 
 
-	./Demo --learning_rate 0.02 --model abc
+	./Demo --learning_rate 0.02 --graph 2
 
 output should be :
 
-	Flags Set
-	0.02
-	abc
+    start
+    Flags Set
+    0.02
+    gcn
+    2
+    Done
+
 
